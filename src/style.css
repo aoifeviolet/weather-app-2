@@ -1,0 +1,20 @@
+.weather-app{max-width: 600px;
+display: block;
+margin: 30px auto;
+padding: 30;
+border: solid 1px blue;
+border-radius: 25px;}
+
+p{text-align: center;}
+
+li{list-style: none;}
+
+h1{margin-bottom: 0;}
+
+h2, h3{font-size: 25px;}
+
+.row{margin-top: 30;}
+
+.weather-temp img{margin-left: 35px;}
+
+
