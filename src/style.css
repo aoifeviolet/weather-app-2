@@ -15,6 +15,11 @@ h2, h3{font-size: 25px;}
 
 .row{margin-top: 30;}
 
-.weather-temp img{margin-left: 35px;}
+.weather-temp img{margin-left: 15px;
+width: 90px;
+height: 90px;}
 
+.weather-temp strong{font-size: 40;}
 
+.weather-temp span{position: relative;
+top: -15;}
