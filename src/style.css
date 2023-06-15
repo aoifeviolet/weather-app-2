@@ -26,3 +26,5 @@ left: 10;}
 
 .weather-temp span{position: relative;
 top: -15;}
+
+.des {text-transform: capitalize;}
