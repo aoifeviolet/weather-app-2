@@ -15,31 +15,49 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
+
+    
+
     <div class="container">
       <div class="weather-app">
-        <h1 id="city">London</h1>
+      <form id="search-form" class="form">
+      <div class="row search-bar">
+        <div class="col-9">
+          <input
+            type="search"
+            placeholder="Type a city..."
+            class="form-control"
+            id="city-input"
+          />
+        </div>
+
+        <div class="col-3">
+          <input type="submit" value="Search" />
+        </div>
+        </div>
+       </form>
+
+        <h1 id="city"></h1>
         <h2>Last updated: <span id="date"></span></h2>
-        <h3 id="tempDescription" class="des">Cloudy</h3>
+        <h3 id="tempDescription" class="des"></h3>
         <div class="row">
           <div class="col-6">
             <div class="d-flex weather-display">
-              <img
-                src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
-                alt=""
-                id="icon"
-              />
+              <div class="weather-icon">
+              <img src="" alt="" id="icon"/></div>
               <div class="weather-temp">
-                <strong id="temperature">23</strong> <span>°C⎜F</span>
+                <strong id="temperature"></strong> <span>°C</span>
               </div>
             </div>
           </div>
           <div class="col-6">
             <ul>
-              <li>Humidity: <span id="humidity">5</span>%</li>
+              <li class="humidity">Humidity: <span id="humidity"></span>%</li>
+              <li class="wind">Wind: <span id="wind"></span> kmh</li>
             </ul>
           </div>
         </div>
-      </div>
+        <div class="weather-forecast" id="forecast"></div>
       <p>
         <a href="https://github.com/aoifeviolet/weather-app-2">Open sorced</a>
         by Aoife Murphy. Hosted by

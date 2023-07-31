@@ -16,8 +16,8 @@ h2, h3{font-size: 25px;}
 .row{margin-top: 30;}
 
 .weather-display img{margin-left: 15px;
-width: 90px;
-height: 90px;}
+width: 170;
+height: 170;}
 
 .weather-temp {position: relative;
 left: 10;}
@@ -25,6 +25,24 @@ left: 10;}
 .weather-temp strong{font-size: 40;}
 
 .weather-temp span{position: relative;
-top: -15;}
+bottom: 50;
+left: 60;}
 
-.des {text-transform: capitalize;}
+.des {text-transform: capitalize;
+position: relative;
+top: 10;}
+
+.form {position: relative;
+bottom: 20;}
+
+.weather-forecast { 
+text-align: center;}
+
+forecast-row {justify-content: space-evenly;}
+
+
+
+.forecast-icon {position: relative;
+right: 15;
+top: -20;}
+
