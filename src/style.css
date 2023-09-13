@@ -1,8 +1,12 @@
-.weather-app{max-width: 600px;
+body{background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+color: rgb(62, 49, 141);}
+
+.weather-app{background-color: rgba(255, 255, 255, 0.869);
+    max-width: 600px;
 display: block;
 margin: 30px auto;
 padding: 30;
-border: solid 1px blue;
+border: solid 1px white;
 border-radius: 25px;}
 
 p{text-align: center;}
@@ -13,7 +17,18 @@ h1{margin-bottom: 0;}
 
 h2, h3{font-size: 25px;}
 
+.main-temp {background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+border: solid 1px radial-gradient(283px at 1.7% 8.6%, rgb(141, 254, 235) 0%, rgb(232, 176, 254) 90%);
+border-radius: 30px;
+box-shadow: 0px 10px 20px rgb(222, 222, 222);
+margin: auto;
+margin-top: 20;
+color: white;
+max-width: 400;}
+
+
 .row{margin-top: 30;}
+
 
 .weather-display img{margin-left: 15px;
 width: 170;
@@ -22,11 +37,15 @@ height: 170;}
 .weather-temp {position: relative;
 left: 10;}
 
-.weather-temp strong{font-size: 40;}
+.weather-temp strong{font-size: 60;}
 
 .weather-temp span{position: relative;
-bottom: 50;
-left: 60;}
+bottom: 70;
+left: 80;}
+
+ul{position: relative;
+top: 90;
+right: 60;}
 
 .des {text-transform: capitalize;
 position: relative;
@@ -35,12 +54,29 @@ top: 10;}
 .form {position: relative;
 bottom: 20;}
 
-.weather-forecast { 
-text-align: center;}
+.form-control {background-color: rgba(255, 255, 255, 0.142);
+    border: solid 1px rgba(255, 255, 255, 0.142);
+}
 
-forecast-row {justify-content: space-evenly;}
+.search-button value {color: red;}
 
+.weather-forecast {
+text-align: center;
+margin-top: 50;
+margin-bottom: 50;
+background: linear-gradient(68.6deg, rgba(252, 165, 240, 0.639) 1.8%, rgba(181, 255, 255, 0.63) 100.5%);
+border: solid 1px white;
+border-radius: 25px;
+box-shadow: 0px 10px 20px rgb(222, 222, 222);
+padding: 20;
+padding-bottom: 30;}
 
+forecast-row {justify-content: space-evenly;
+margin: auto;
+}
+
+.forecast-temps{font-size: 10px;
+font-weight: bolder;}
 
 .forecast-icon {position: relative;
 right: 15;

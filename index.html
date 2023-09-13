@@ -15,9 +15,6 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
-
-    
-
     <div class="container">
       <div class="weather-app">
       <form id="search-form" class="form">
@@ -31,7 +28,7 @@
           />
         </div>
 
-        <div class="col-3">
+        <div class="col-3 search-button">
           <input type="submit" value="Search" />
         </div>
         </div>
@@ -40,6 +37,7 @@
         <h1 id="city"></h1>
         <h2>Last updated: <span id="date"></span></h2>
         <h3 id="tempDescription" class="des"></h3>
+        <div class="main-temp">
         <div class="row">
           <div class="col-6">
             <div class="d-flex weather-display">
@@ -57,6 +55,8 @@
             </ul>
           </div>
         </div>
+      </div>
+
         <div class="weather-forecast" id="forecast"></div>
       <p>
         <a href="https://github.com/aoifeviolet/weather-app-2">Open sorced</a>
